@@ -5,6 +5,12 @@
 .d-bloc .navbar-toggle .icon-bar,body {
     background:#fff
 }
+.paragraphe {
+    width: 80%;
+    margin-block: auto;
+    margin-inline: auto;
+
+}
 .bloc .container,.row.row-no-gutters>[class*=" col-"],.row.row-no-gutters>[class^=col-] {
     padding-right:0;
     padding-left:0
@@ -530,7 +536,8 @@ h3 {
     margin-top:24px
 }
 .portfolio-thumb {
-    margin-bottom:24px
+    margin-bottom:24px;
+    margin-inline: auto;
 }
 .portfolio-row {
     margin-bottom:44px;
