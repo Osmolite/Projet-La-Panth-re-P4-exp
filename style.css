@@ -642,8 +642,8 @@ h3 {
         position:relative
     }
     .bloc {
-        padding-left:env(safe-area-inset-left);
-        padding-right:env(safe-area-inset-right)
+        padding-left:constant(safe-area-inset-left, 5px);
+        padding-right:constant(safe-area-inset-right, 5px)
     }
     .bloc-group,.bloc-group .bloc {
         display:block;
@@ -651,8 +651,8 @@ h3 {
     }
     .bloc-fill-screen .fill-bloc-bottom-edge,.bloc-fill-screen .fill-bloc-top-edge {
         padding:0 20px;
-        padding-left:env(safe-area-inset-left);
-        padding-right:env(safe-area-inset-right)
+        padding-left:constant(safe-area-inset-left, 5px);
+        padding-right:constant(safe-area-inset-right, 5px)
     }
 }
 @media (max-width:400px) {
