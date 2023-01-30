@@ -11,6 +11,10 @@
     margin-inline: auto;
 
 }
+.titre-formulaire {
+    display: flex;
+    justify-content: center;
+}
 .bloc .container,.row.row-no-gutters>[class*=" col-"],.row.row-no-gutters>[class^=col-] {
     padding-right:0;
     padding-left:0
